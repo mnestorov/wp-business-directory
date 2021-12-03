@@ -9,6 +9,7 @@
 # "mu-plugins", "plugins", "themes" directory
 wp-content/*
 !wp-content/themes/
+!wp-content/plugins/
 !wp-content/README.md
 
 # ignore these plugins
