@@ -9,7 +9,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Business Directory - Post Types and Taxonomies
- * Plugin URI:        https://github.com/mnestorov/
+ * Plugin URI:        https://github.com/mnestorov/business-directory/plugins/mn-bd-post-types
  * Description:       A simple plugin to create a custom post type and taxonomies related to a business directory.
  * Version:           1.0.0
  * Requires at least: 5.2
