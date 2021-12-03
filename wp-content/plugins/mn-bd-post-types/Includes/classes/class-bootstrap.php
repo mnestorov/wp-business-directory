@@ -24,8 +24,9 @@ namespace MN_BD_CPT {
 		 * Constructor
 		 */
 		public function __construct() {
-			add_action( 'plugins_loaded', array( $this, 'dx_include' ), 10 );
-			add_action( 'init', array( $this, 'dx_run' ), 0 );
+			add_action( 'plugins_loaded', array( $this, 'include' ), 10 );
+			add_action( 'init', array( $this, 'run' ), 0 );
+			register_activation_hook( MN_BDCPT_PATH, array( $this, 'rewrite_flush' ) );
 		}
 
 		/**
@@ -33,7 +34,7 @@ namespace MN_BD_CPT {
 		 *
 		 * @return void
 		 */
-		public function dx_include() {
+		public function include() {
 			// Include the classes.
 			require_once 'class-bd-register-post-types.php';
 			require_once 'class-bd-register-taxonomies.php';
@@ -44,9 +45,19 @@ namespace MN_BD_CPT {
 		 *
 		 * @return void
 		 */
-		public function dx_run() {
+		public function run() {
 			$this->loader = new \BD_Register_Post_Types();
 			$this->loader = new \BD_Register_Taxonomies();
+		}
+
+		/**
+		 * Get permalinks to work when plugin is activated
+		 *
+		 * @return void
+		 */
+		public function rewrite_flush() {
+			$this->run();
+			flush_rewrite_rules();
 		}
 	}
 }
