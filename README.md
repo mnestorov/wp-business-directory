@@ -1,5 +1,7 @@
 
-# Business Directory is a WordPress site for testing custom post types and taxonomies
+# Business Directory
+
+Business Directory is a `WordPress` site for testing custom post types and taxonomies
 
 The project includes WordPress child theme for [Twenty Nineteen theme](https://wordpress.org/themes/twentynineteen/) created by me for changing some styles for our needed custom functionallity, and custom plugin for adding the functionallity of the custom post types and taxonomies.
 
