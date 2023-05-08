@@ -28,3 +28,9 @@ Required plugin is a custom one and he is added in to the plugin directory.
 1) You need to visit the WordPress admin area and click on the `Plugins` link in the admin menu. 
 
 2) You need to click on the `Activate` link below the plugin to start using it.
+
+---
+
+## License
+
+This project is released under the MIT License.
