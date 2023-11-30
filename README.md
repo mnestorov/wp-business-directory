@@ -8,15 +8,18 @@
 
 Business Directory is a `WordPress` site for testing custom post types and taxonomies
 
-The project includes WordPress child theme for [Twenty Nineteen theme](https://wordpress.org/themes/twentynineteen/) created by me for changing some styles for our needed custom functionallity, and custom plugin for adding the functionallity of the custom post types and taxonomies.
+## Features
 
-## Required plugins
+- WordPress child theme for [Twenty Nineteen theme](https://wordpress.org/themes/twentynineteen/) created by me for changing some styles for our needed custom functionallity.
+- Custom plugin for adding the functionallity of the custom post types and taxonomies.
 
-Required plugin is a custom one and he is added in to the plugin directory.
+## Requirements
 
-## How to install
+- The required plugin is a custom one and he is added in to the plugin directory.
 
-**Theme**
+## Installation
+
+### Theme
 
 - Inside your WordPress admin area, head over to ```Appearance » Themes``` page and click on the Add New button.
 - Child theme came as a zip file, then you need to click on the ```Upload Theme``` button. This will show you theme upload option.
@@ -24,10 +27,10 @@ Required plugin is a custom one and he is added in to the plugin directory.
 - WordPress will now upload the theme zip file from your computer and install it. It will also check if the parent theme is installed. If parent theme is available from [WordPress.org](https://wordpress.org) theme directory, then it will try to install it. Otherwise, it will let you know that you will need to install parent theme manually.
 - After installing both parent and child themes, you can go ahead and activate the child theme.
 
-**Plugin**
+### Plugin
 
-- You need to visit the WordPress admin area and click on the `Plugins` link in the admin menu. 
-- You need to click on the `Activate` link below the plugin to start using it.
+- Activate the plugin through the 'Plugins' menu in WordPress.
+- Go to the Products->Attributes, create new attribute, click on Edit and you will see the "Custom Upsell" design option on the left side.
 
 ---
 
